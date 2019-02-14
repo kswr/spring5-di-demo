@@ -1,8 +1,13 @@
 package guru.springframework.services;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
 /**
  * Created by jt on 5/24/17.
  */
+
+@Component
 public class GreetingRepositoryImpl implements GreetingRepository {
 
     @Override
